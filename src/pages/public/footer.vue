@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Footer',
 }
 </script>
 
 <style lang="scss">
-@import 'styles/reset.scss';
+  
 </style>

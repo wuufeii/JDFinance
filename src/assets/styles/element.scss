@@ -1,0 +1,29 @@
+@import "./layout.scss";
+
+@mixin btn($size:14px,$color:#fff,$bgcolor:#f04752,$radius:5px) {
+  background-color:$bgcolor;
+  border:1px solid $bgcolor;
+  text-align:center;
+  display:inline-block;
+}
+
+@mixin list($direction:column) {
+  @include flex($direction);
+}
+
+@mixin panel($bgcolor:#fff,$padding:0,$margin:20px 0,$height:112px,$textPadding:0 32px,$color:#333,$fontSize:32px) {
+  background:$bgcolor;
+  padding:$padding;
+  margin:$margin;
+  >h4{
+    height:$height;
+    line-height: $height;
+    padding:$textPadding;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    text-align: center;
+    color:$color;
+    font-size:$fontSize;
+  }
+}
