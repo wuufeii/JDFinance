@@ -1,9 +1,9 @@
 <template>
   <div :class="$style.footer">
-    <div :class="$style.item" v-for="item of items" :key="item.src">
+    <router-link :to="item.href" tag="div" :class="$style.item" v-for="item of items" :key="item.src">
       <span :class="$style.img"><img :src="item.src" :alt="item.title"></span>
       <span :class="$style.title">{{item.title}}</span>
-    </div>
+    </router-link>
   </div>
 </template>
 
@@ -17,11 +17,11 @@ export default {
         src: '//img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60',
         title: '首页'
       }, {
-        href: '/',
+        href: '/money',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t7690/252/3621724688/1715/757a3ca1/59e9d81bN27304850.png?width=60&height=60',
         title: '赚钱'
       }, {
-        href: '/',
+        href: '/borrow',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t11653/76/201131398/1192/bf1b2852/59e9d7f3N5f691137.png?width=60&height=60',
         title: '借钱'
       }, {
