@@ -2,7 +2,7 @@
   <div :class="$style.list">
     <div v-for="item of items" :key="item.src">
       <div :class="$style.item">
-        <router-link :to="{path:item.href}" tag="div" :class="$styleimg">
+        <router-link :to="{path:item.href}" tag="div" :class="$style.img">
           <img :src="item.src" alt="item.title">
         </router-link>
         <router-link :to="{path:item.href}" tag="span" :class="$style.title">{{item.title}}</router-link>
