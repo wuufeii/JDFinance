@@ -1,11 +1,11 @@
 <template>
-  <div class="list">
+  <div :class="$style.list">
     <div v-for="item of items" :key="item.src">
-      <div class="item">
-        <router-link :to="{path:item.href}" tag="div" class="img-box">
+      <div :class="$style.item">
+        <router-link :to="{path:item.href}" tag="div" :class="$styleimg">
           <img :src="item.src" alt="item.title">
         </router-link>
-        <router-link :to="{path:item.href}" tag="span" class="item-title">{{item.title}}</router-link>
+        <router-link :to="{path:item.href}" tag="span" :class="$style.title">{{item.title}}</router-link>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ export default {
 
 </script>
 
-<style lang="scss">
+<style lang="scss" module>
   .list{
     width:100%;
     overflow:hidden;
@@ -54,13 +54,13 @@ export default {
       width:calc(20% - 10px);
       padding:5px;
       text-align:center;
-      .img-box{
+      .img{
         padding:.06% 15.1515%;
         img{
           width: 100%;
         }
       }
-      .item-title{
+      .title{
         display: inline-block;
         font-size: 26px;
       }

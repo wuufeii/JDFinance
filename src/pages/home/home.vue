@@ -9,6 +9,7 @@
     <home-money></home-money>
     <home-foot-list></home-foot-list>
     <home-contact></home-contact>
+    <home-footer></home-footer>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import homeInsurance from './components/insurance'
 import homeMoney from './components/money'
 import homeFootList from './components/footList'
 import homeContact from './components/contact'
+import homeFooter from '../public/footer'
 export default {
   name: 'Home',
   components: {
@@ -33,7 +35,8 @@ export default {
     homeInsurance,
     homeMoney,
     homeFootList,
-    homeContact
+    homeContact,
+    homeFooter
   }
 }
 </script>

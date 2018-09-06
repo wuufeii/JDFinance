@@ -80,6 +80,7 @@ export default{
   }
   .copyright{
     background:#eee;
+    margin-bottom:100px;
     p{
       font-size:24px;
       color:#999;
