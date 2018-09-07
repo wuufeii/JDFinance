@@ -4,6 +4,7 @@ import Home from '@/pages/home/home'
 import Money from '@/pages/makeMoney/makeMoney'
 import Borrow from '@/pages/borrowMoney/borrowMoney'
 import Save from '@/pages/saveMoney/saveMoney'
+import User from '@/pages/user/user'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/save',
       name: 'saveMoney',
       component: Save
+    },
+    {
+      path: '/user',
+      name: 'User',
+      component: User
     }
   ],
   scrollBehavior (to, from, savedPosition) {

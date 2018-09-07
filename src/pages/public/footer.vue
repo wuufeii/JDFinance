@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.footer">
+  <div :class="$style.footer" class="border-top">
     <router-link :to="item.href" tag="div" :class="$style.item" v-for="item of items" :key="item.src">
       <span :class="$style.img"><img :src="item.src" :alt="item.title"></span>
       <span :class="$style.title">{{item.title}}</span>
@@ -14,7 +14,7 @@ export default {
     return {
       items: [{
         href: '/',
-        src: '//img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60',
+        src: '//img12.360buyimg.com/jrpmobile/jfs/t17587/158/1300523690/1908/eabacaac/5ac4850bNdf876dd8.png?width=60&height=60',
         title: '首页'
       }, {
         href: '/money',
@@ -29,7 +29,7 @@ export default {
         src: '//img12.360buyimg.com/jrpmobile/jfs/t19729/201/1027312338/1395/95cecd48/5ab85d0eN01f81011.png?width=56&height=56',
         title: '省钱'
       }, {
-        href: '/',
+        href: '/user',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t10897/141/1894216742/2046/ad0e8dc1/59e9d7feNaa5dd2fd.png?width=60&height=60',
         title: '金融会员'
       }]
@@ -69,6 +69,14 @@ export default {
       text-align:center;
       color:#999;
       padding-bottom:16px;
+    }
+  }
+</style>
+
+<style lang="scss">
+  .router-link-exact-active{
+    span{
+      color:#4668ff!important;
     }
   }
 </style>

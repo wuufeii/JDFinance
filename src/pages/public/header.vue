@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.header">
+  <div :class="$style.header" class="border-bottom">
     <div :class="$style.left"><span class="iconfont">&#xe624;</span></div>
     <div :class="$style.center">{{title}}</div>
     <div :class="$style.right"><span class="iconfont">&#xe637;</span></div>
@@ -31,7 +31,7 @@ export default {
     span{
       font-size:34px;
       font-weight:bold;
-      line-height:100px;
+      line-height:90px;
       cursor:pointer;
     }
   }
@@ -48,7 +48,7 @@ export default {
     span{
       font-size:40px;
       font-weight:bold;
-      line-height:100px;
+      line-height:90px;
       cursor:pointer;
     }
   }
