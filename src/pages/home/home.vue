@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <home-header></home-header>
+    <home-header title="京东金融"></home-header>
+    <home-subtitle></home-subtitle>
     <home-slider></home-slider>
     <home-list></home-list>
     <home-financial></home-financial>
@@ -15,6 +16,7 @@
 
 <script>
 import homeHeader from '../public/header'
+import homeSubtitle from '../public/subtitle'
 import homeSlider from './components/slider'
 import homeList from './components/list'
 import homeFinancial from './components/financial'
@@ -28,6 +30,7 @@ export default {
   name: 'Home',
   components: {
     homeHeader,
+    homeSubtitle,
     homeSlider,
     homeList,
     homeFinancial,

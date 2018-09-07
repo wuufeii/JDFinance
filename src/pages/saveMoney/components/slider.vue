@@ -1,16 +1,26 @@
 <template>
-  <swiper :cname="$style.slider" :items="items"></swiper>
+  <swiper :cname="$style.slider" :options="options" :items="items"></swiper>
 </template>
 
 <script>
 import swiper from '@/pages/common/slider'
 export default {
-  name: 'HomeSlider',
+  name: 'saveSlider',
   components: {
     swiper
   },
   data () {
     return {
+      options: {
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction'
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      },
       items: [{
         herf: '/',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t24952/162/1228570278/63421/bcc0349/5b8e7b38N86019cf6.jpg?width=750&height=320',
@@ -40,6 +50,8 @@ export default {
 <style lang="scss" module>
 .slider{
   margin-top:190px;
+  color:#fff;
+  font-size:28px;
   img{
     width:100%;
   }

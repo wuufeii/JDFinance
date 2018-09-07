@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <money-header></money-header>
+    <money-header title="借钱"></money-header>
+    <money-subtitle></money-subtitle>
     <money-slider></money-slider>
     <money-car></money-car>
     <money-list></money-list>
@@ -12,6 +13,7 @@
 
 <script>
 import moneyHeader from '../public/header'
+import moneySubtitle from '../public/subtitle'
 import moneySlider from './components/slider'
 import moneyCar from '../home/components/money'
 import moneyList from './components/list'
@@ -22,6 +24,7 @@ export default{
   name: 'borrowMoney',
   components: {
     moneyHeader,
+    moneySubtitle,
     moneySlider,
     moneyCar,
     moneyList,

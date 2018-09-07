@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <money-header></money-header>
+    <money-header title="赚钱"></money-header>
+    <money-subtitle></money-subtitle>
     <money-slider></money-slider>
     <money-list></money-list>
     <money-vslider></money-vslider>
@@ -14,6 +15,7 @@
 
 <script>
 import moneyHeader from '../public/header'
+import moneySubtitle from '../public/subtitle'
 import moneySlider from '../home/components/slider'
 import moneyList from './components/list'
 import moneyVslider from './components/vSlider'
@@ -26,6 +28,7 @@ export default{
   name: 'makeMoney',
   components: {
     moneyHeader,
+    moneySubtitle,
     moneySlider,
     moneyList,
     moneyVslider,

@@ -47,7 +47,7 @@ export default{
 .img{
   position:relative;
   overflow:hidden;
-  margin-top:120px;
+  margin-top:190px;
   padding:50px 30px 0;
   background-color:#fbfbfb;
   img{
