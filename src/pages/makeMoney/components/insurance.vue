@@ -68,6 +68,7 @@ export default {
   .left{
     float:left;
     width:40%;
+    min-height:292px;
     .item{
       margin:20px 8px 30px 30px;
       overflow:hidden;
@@ -93,25 +94,26 @@ export default {
       }
       .btn{
         display:inline-block;
-        font-size: 18px;
+        font-size: 22px;
         color: #fff;
         text-align: center;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        width: 164px;
-        height: 50px;
-        line-height: 50px;
+        height: 40px;
+        line-height: 40px;
         background: #1bd5c7;
         border-radius: 25px;
-        margin-top:20px;
-        margin-bottom:13px;
+        padding:4px 28px;
+        margin-top:16px;
+        margin-bottom:18px;
       }
     }
   }
   .right{
     float:left;
     width:60%;
+    min-height:292px;
     .item{
       margin:20px 30px 30px 8px;
       box-shadow: 0 0 6px 3px rgba(101,118,155,.15);

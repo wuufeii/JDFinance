@@ -51,7 +51,10 @@ export default {
       padding:5px;
       text-align:center;
       .img-box{
-        padding:.06% 15.1515%;
+        width:90px;
+        height:90px;
+        oberflow:hidden;
+        margin:0 auto;
         img{
           width: 100%;
         }

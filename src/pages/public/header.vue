@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.header" class="border-bottom">
+  <div :class="$style.header">
     <div :class="$style.left"><span class="iconfont">&#xe624;</span></div>
     <div :class="$style.center">{{title}}</div>
     <div :class="$style.right"><span class="iconfont">&#xe637;</span></div>
@@ -24,6 +24,7 @@ export default {
   height:90px;
   background-color:#fff;
   overflow:hidden;
+  border-bottom:.018rem solid #ccc;
   z-index:100;
   .left{
     float:left;
@@ -40,7 +41,7 @@ export default {
     line-height:90px;
     font-size:30px;
     position: absolute;
-    left: calc(50% - 30px);
+    left: calc(50% - 60px);
   }
   .right{
     float:right;

@@ -69,6 +69,7 @@ export default {
   .left{
     float:left;
     width:40%;
+    min-height:292px;
     .item{
       margin:20px 8px 30px 30px;
       text-align:center;
@@ -85,7 +86,7 @@ export default {
           display:inline-block;
           border:20px solid #eee;
           border-radius:50%;
-          margin-top:20px;
+          margin-top:18px;
           font-size:24px;
           color:#c4a36c;
           text-align:center;
@@ -94,27 +95,27 @@ export default {
       }
       .btn{
         display:inline-block;
-        padding: 2px 24px;
-        font-size: 20px;
+        padding: 4px 28px;
+        font-size: 22px;
         background: #d4b575;
         height: 40px;
         line-height: 40px;
         text-align: center;
         border-radius: 20px;
         color:#fff;
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top:15px;
+        margin-bottom:18px;
       }
     }
   }
   .right{
     float:left;
     width:60%;
+    min-height:292px;
     .item{
       margin:20px 30px 30px 8px;
       box-shadow: 0 0 6px 3px rgba(101,118,155,.15);
       overflow:hidden;
-      min-height:245px;
       .list{
         float:left;
         width:33.3333%;

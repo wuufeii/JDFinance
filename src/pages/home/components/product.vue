@@ -64,7 +64,6 @@ export default {
       img{
         width:100%;
         display:block;
-        height:314px;
         border:1px solid #fafafa;
       }
     }

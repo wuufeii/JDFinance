@@ -89,8 +89,8 @@ export default {
       width:88px;
     }
     .title{
-     font-size:22px;
-     margin-bottom:400px;
+      display:block;
+      font-size:22px;
     }
   }
 }
