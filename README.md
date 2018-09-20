@@ -14,9 +14,10 @@
 *注：请使用手机浏览器查看哦*
 >     *如果使用pc浏览器，请调成手机模拟查看*
 
-##项目截图
+## 项目截图
+
 <div align=center background-color="#eee">
-  首页
+  >     *如果使用pc浏览器，请调成手机模拟查看*
 </div>
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
