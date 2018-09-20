@@ -16,8 +16,7 @@
 
 ##项目截图
 
-![截图1](https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg)
-
+<div align=center><img width="150" height="150" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/></div>
 ## 项目如何使用
 
 ``` bash
