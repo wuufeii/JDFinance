@@ -16,7 +16,7 @@
 
 ##项目截图
 
-<div align=center>
+<div align=center margin-bottom="20">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 <div align=center>
