@@ -16,7 +16,7 @@
 
 ## 项目截图
 
-<div align=center background-color="#eee" font-size="30" font-weight="bold">
+<div align=center background-color=#eee font-size="30" font-weight="bold">
   首页效果
 </div>
 <div align="center">
