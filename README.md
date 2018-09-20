@@ -16,10 +16,10 @@
 
 ## 项目截图
 
-<div align=center background-color="#eee">
+<div align=center background-color="#eee" font-size="30" font-weight="bold">
   首页效果
 </div>
-<div align="center" font-size="30" font-weight="bold">
+<div align="center">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 <div align=center background-color="#eee">
@@ -58,5 +58,5 @@ npm run dev
 ### 项目的构建命令
 npm run build
 
-###以下命令来查看依赖关系.然后再根据具体情况划分代码块.
+### 以下命令来查看依赖关系.然后再根据具体情况划分代码块.
 npm run build --report
