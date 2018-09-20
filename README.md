@@ -21,7 +21,7 @@
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 
->     首页效果
+>     赚钱页效果
 
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/2.jpg"/>
@@ -44,6 +44,7 @@
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/5.jpg"/>
 </div>
+
 ## 项目如何使用
 
 ``` bash
