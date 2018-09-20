@@ -19,7 +19,7 @@
 <div align=center background-color="#eee">
   首页效果
 </div>
-<div align=center>
+<div align="center" font-size="20" font-weight="bold">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 <div align=center background-color="#eee">
