@@ -15,7 +15,8 @@
 >     *如果使用pc浏览器，请调成手机模拟查看*
 
 ##项目截图
-![截图1](https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg)
+
+[截图1](https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg)
 
 ## 项目如何使用
 
