@@ -20,27 +20,27 @@
 <div align="center">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
-<div align=center background-color="#eee">
+
 >     首页效果
-</div>
+
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/2.jpg"/>
 </div>
-<div align=center background-color="#eee">
-  借钱页面效果
-</div>
+
+>  借钱页面效果
+
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/3.jpg"/>
 </div>
-<div align=center background-color="#eee">
-  省钱页面效果
-</div>
+
+>  省钱页面效果
+
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/4.jpg"/>
 </div>
-<div align=center background-color="#eee">
-  个人中心页面效果
-</div>
+
+>  个人中心页面效果
+
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/5.jpg"/>
 </div>
