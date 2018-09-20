@@ -16,30 +16,30 @@
 
 ## 项目截图
 
->     首页效果
+     首页效果
 <div align="center">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 
->     赚钱页效果
+     赚钱页效果
 
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/2.jpg"/>
 </div>
 
->  借钱页面效果
+    借钱页面效果
 
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/3.jpg"/>
 </div>
 
->  省钱页面效果
+    省钱页面效果
 
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/4.jpg"/>
 </div>
 
->  个人中心页面效果
+    个人中心页面效果
 
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/5.jpg"/>
