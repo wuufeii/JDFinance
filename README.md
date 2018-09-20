@@ -5,15 +5,17 @@
 ```
 
 
-> 这是一个金融APP，图片等数据来源来自去京东金融
+>       这是一个金融APP，图片等数据来源来自去京东金融
 *在此，感谢京东金融*
 
 ## 项目的效果图
 
 想要看看项目的效果是怎样的？来吧——[传送门](https://wuufeii.github.io/finance/index.html) <br />
 *注：请使用手机浏览器查看哦*
->>>> *如果使用pc浏览器，请调成手机模拟查看*
+>     *如果使用pc浏览器，请调成手机模拟查看*
 
+##项目截图
+![截图1](https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg)
 
 ## 项目如何使用
 
