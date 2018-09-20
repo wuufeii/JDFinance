@@ -21,7 +21,7 @@
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
 <div align=center background-color="#eee">
-  赚钱页面效果
+>     首页效果
 </div>
 <div align=center>
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/2.jpg"/>
