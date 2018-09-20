@@ -16,9 +16,7 @@
 
 ## 项目截图
 
-<div align=center background-color=#eee font-size="30" font-weight="bold">
-  首页效果
-</div>
+>     首页效果
 <div align="center">
   <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-finance/1.jpg"/>
 </div>
